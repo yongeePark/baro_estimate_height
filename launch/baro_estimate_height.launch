@@ -1,0 +1,7 @@
+<launch>
+  <node name="baro_estimate_height_node" pkg="baro_estimate_height" type="baro_estimate_height_node" output="screen">
+    <param name="barometric_topic" type="string" value="/mavros/imu/static_pressure" />
+    <param name="height_topic" type="string" value="/height" />
+    <param name="window_size" type="int" value="25" />
+  </node>
+</launch>

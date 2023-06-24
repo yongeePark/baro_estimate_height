@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/home/usrg/catkin_ws/devel/include/**",
+        "/home/usrg/catkin_ws/src/baro_estimate_height/include/**",
+        "/home/usrg/catkin_ws/src/opencv_packages/vision_opencv/cv_bridge/include/**",
+        "/home/usrg/catkin_ws/src/fast_curvature_planner/fast_curvature_controller/include/**",
+        "/home/usrg/catkin_ws/src/fast_curvature_planner/fast_curvature_planner_for_uav/include/**",
+        "/home/usrg/catkin_ws/src/hdl_dependencies/fast_gicp/include/**",
+        "/home/usrg/catkin_ws/src/hdl_graph_slam/include/**",
+        "/home/usrg/catkin_ws/src/opencv_packages/vision_opencv/image_geometry/include/**",
+        "/home/usrg/catkin_ws/src/mavros/libmavconn/include/**",
+        "/home/usrg/catkin_ws/src/mav_comm/mav_msgs/include/**",
+        "/home/usrg/catkin_ws/src/mav_comm/mav_planning_msgs/include/**",
+        "/home/usrg/catkin_ws/src/mavros/mavros/include/**",
+        "/home/usrg/catkin_ws/src/mavros/mavros_msgs/include/**",
+        "/home/usrg/catkin_ws/src/my_mpc/include/**",
+        "/home/usrg/catkin_ws/src/my_rrt/include/**",
+        "/home/usrg/catkin_ws/src/hdl_dependencies/ndt_omp/include/**",
+        "/home/usrg/catkin_ws/src/nn_image_conversion_ros/include/**",
+        "/home/usrg/catkin_ws/src/gazebo_drone_simulation/ouster_gazebo_plugins/include/**",
+        "/home/usrg/catkin_ws/src/orb_slam_2_ros/orb_dependencies/pose_to_odom/include/**",
+        "/home/usrg/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/usrg/catkin_ws/src/mavros/test_mavros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
